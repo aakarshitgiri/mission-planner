@@ -1,0 +1,46 @@
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ol-zoom-in, .ol-zoom-out{
+  background: #4242d8;
+  width: 3em;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 1.5em;
+}
+
+.ol-compass{
+  background: #4242d8;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 2em;
+}
+
+.p-dialog-content{
+  padding: 0;
+}
+
+.p-checkbox-box{
+  background: #ededed;
+}
